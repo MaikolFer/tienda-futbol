@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Productos - Tienda en Línea</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="carrito.html">Carrito</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Productos Disponibles</h1>
+    <div class="productos">
+      <div class="producto" data-id="1">
+        <img src="img/real_madrid.webp" alt="Camiseta Real Madrid">
+        <h2>Camiseta Real Madrid</h2>
+        <p>Precio: $190.000</p>
+        <label for="cantidad1">Cantidad:</label>
+        <input type="number" id="cantidad1" value="1" min="1">
+        <button onclick="agregarAlCarrito(1)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" data-id="2">
+        <img src="img/barcelona.jpg" alt="Camiseta Barcelona">
+        <h2>Camiseta Barcelona</h2>
+        <p>Precio: $130.000</p>
+        <label for="cantidad2">Cantidad:</label>
+        <input type="number" id="cantidad2" value="1" min="1">
+        <button onclick="agregarAlCarrito(2)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" data-id="3">
+        <img src="img/man_united.webp" alt="Camiseta Man. United">
+        <h2>Camiseta Man. United</h2>
+        <p>Precio: $180.000</p>
+        <label for="cantidad3">Cantidad:</label>
+        <input type="number" id="cantidad3" value="1" min="1">
+        <button onclick="agregarAlCarrito(3)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" data-id="4">
+        <img src="img/arsenal.webp" alt="Camiseta Arsenal">
+        <h2>Camiseta Arsenal</h2>
+        <p>Precio: $150.000</p>
+        <label for="cantidad4">Cantidad:</label>
+        <input type="number" id="cantidad4" value="1" min="1">
+        <button onclick="agregarAlCarrito(4)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" data-id="5">
+        <img src="img/liverpool.png" alt="Camiseta Liverpool">
+        <h2>Camiseta Liverpool</h2>
+        <p>Precio: $130.000</p>
+        <label for="cantidad5">Cantidad:</label>
+        <input type="number" id="cantidad5" value="1" min="1">
+        <button onclick="agregarAlCarrito(5)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" data-id="6">
+        <img src="img/inter_miami.webp" alt="Camiseta Inter Miami">
+        <h2>Camiseta Inter Miami</h2>
+        <p>Precio: $120.000</p>
+        <label for="cantidad6">Cantidad:</label>
+        <input type="number" id="cantidad6" value="1" min="1">
+        <button onclick="agregarAlCarrito(6)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" data-id="7">
+        <img src="img/man_city.webp" alt="Camiseta Man. City">
+        <h2>Camiseta Man. City</h2>
+        <p>Precio: $120.000</p>
+        <label for="cantidad7">Cantidad:</label>
+        <input type="number" id="cantidad7" value="1" min="1">
+        <button onclick="agregarAlCarrito(7)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" data-id="8">
+        <img src="img/al_nassr.png" alt="Camiseta Al-Nassr">
+        <h2>Camiseta Al-Nassr</h2>
+        <p>Precio: $200.000</p>
+        <label for="cantidad8">Cantidad:</label>
+        <input type="number" id="cantidad8" value="1" min="1">
+        <button onclick="agregarAlCarrito(8)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" data-id="9">
+        <img src="img/bayern.jpg" alt="Camiseta Bayern">
+        <h2>Camiseta Bayern</h2>
+        <p>Precio: $180.000</p>
+        <label for="cantidad9">Cantidad:</label>
+        <input type="number" id="cantidad9" value="1" min="1">
+        <button onclick="agregarAlCarrito(9)">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" data-id="10">
+        <img src="img/chelsea.webp" alt="Camiseta Chelsea">
+        <h2>Camiseta Chelsea</h2>
+        <p>Precio: $150.000</p>
+        <label for="cantidad10">Cantidad:</label>
+        <input type="number" id="cantidad10" value="1" min="1">
+        <button onclick="agregarAlCarrito(10)">Agregar al carrito</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
+

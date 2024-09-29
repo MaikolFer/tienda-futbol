@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Carrito - Tienda en Línea</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="carrito.html">Carrito</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Tu Carrito</h1>
+    <div id="carrito"></div>
+    <div id="total"></div>
+    
+    <div id="boton-comprar-container" style="text-align: center; margin-top: 20px;">
+      <button id="boton-comprar" onclick="realizarCompra()">Comprar</button>
+    </div>
+
+    <div id="mensaje-exito" style="display: none;"></div>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
