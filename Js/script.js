@@ -1,17 +1,17 @@
 const productos = [
   { id: 1, nombre: "Camiseta Real Madrid", precio: 190.000, imagen: "img/real_madrid.webp" },
-  { id: 2, nombre: "Camiseta Barcelona", precio: 130.000, imagen: "img/barcelona.jpg" },
+  { id: 2, nombre: "Camiseta Barcelona", precio: 130.000, imagen: "img/barcelona.webp" },
   { id: 3, nombre: "Camiseta Man. United", precio: 180.000, imagen: "img/man_united.webp" },
   { id: 4, nombre: "Camiseta Arsenal", precio: 150.000, imagen: "img/arsenal.webp" },
-  { id: 5, nombre: "Camiseta Liverpool", precio: 130.000, imagen: "img/liverpool.png" },
+  { id: 5, nombre: "Camiseta Liverpool", precio: 130.000, imagen: "img/liverpool.webp" },
   { id: 6, nombre: "Camiseta Inter Miami", precio: 120.000, imagen: "img/inter_miami.webp" },
   { id: 7, nombre: "Camiseta Man. City", precio: 120.000, imagen: "img/man_city.webp" },
-  { id: 8, nombre: "Camiseta Al-Nassr", precio: 200.000, imagen: "img/al_nassr.png" },
-  { id: 9, nombre: "Camiseta Bayern", precio: 180.000, imagen: "img/bayern.jpg" },
+  { id: 8, nombre: "Camiseta Al-Nassr", precio: 200.000, imagen: "img/al_nassr.webp" },
+  { id: 9, nombre: "Camiseta Bayern", precio: 180.000, imagen: "img/bayern.webp" },
   { id: 10, nombre: "Camiseta Chelsea", precio: 150.000, imagen: "img/chelsea.webp" }
 ];
 
-let carrito = [];
+let carrito = []; 
 
 function agregarAlCarrito(idProducto) {
   const cantidadInput = document.getElementById(`cantidad${idProducto}`);
